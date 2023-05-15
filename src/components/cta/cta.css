@@ -1,0 +1,93 @@
+.cta_updatesAndInsight {
+  display: grid;
+  grid-template-columns: 272px 272px 272px 272px;
+  grid-column-gap: 10px;
+  grid-row-gap: 60px;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  padding: 78px;
+  background-color: #f0f5fa;
+  width: 1274px;
+  transform: skewY(3deg);
+}
+.skewCTA {
+  transform: skewY(-3deg);
+}
+
+.cta img {
+  height: 200px;
+  width: 268px;
+  border-radius: 20px;
+}
+
+.cta__button {
+  display: flex;
+  column-gap: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+.cta__button button {
+  width: 65px;
+  height: 33px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+#all {
+  background: #20976c;
+  border: none;
+  color: white;
+}
+.cta__heading h1 {
+  font-family: "Gotham Rounded";
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 400;
+  font-weight: bold;
+}
+.cta_updatesAndInsight p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  color: #2f4356;
+  margin-bottom: 40px;
+}
+.cta_updatesAndInsight h1 {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #031a30;
+}
+#update {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0a61b4;
+  margin-bottom: 5px;
+}
+#insight {
+  font-family: "Inter", sans-serif;
+  color: #20976c;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.cta_updatesAndInsight button {
+  border: none;
+  background-color: #f0f5fa;
+  color: #20976c;
+  cursor: pointer;
+}

@@ -1,0 +1,131 @@
+.Header_Container {
+  display: flex;
+  flex-direction: column;
+  width: 1275px;
+  margin-bottom: 0px;
+  padding: 78px;
+  background-color: #f0f5fa;
+  transform: skewY(3deg);
+  height: 557px;
+}
+.skew_headerDesign {
+  display: flex;
+  flex-direction: column;
+  width: 1275px;
+  margin-bottom: 50px;
+  background-color: #f0f5fa;
+  transform: skewY(-3deg);
+}
+.header_right {
+  display: flex;
+  column-gap: 19px;
+  column-count: 2;
+}
+.first_rightDiv {
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  z-index: 3;
+  /* padding: 26px; */
+  width: 270px;
+  height: 411px;
+}
+
+.second_rightDiv {
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  z-index: 3;
+  /* padding: 33px; */
+  width: 270px;
+  height: 459px;
+}
+
+.header_div {
+  display: flex;
+  /* padding: 78px; */
+  column-gap: 50px;
+  width: 1274px;
+}
+.header_left {
+  display: flex;
+  flex-direction: column;
+  grid-row: auto;
+  row-gap: 10px;
+  gap: 40px;
+  /* grid-row-gap: 0px; */
+  margin-bottom: 20px;
+}
+.button {
+  border: 1px solid #20976c;
+  color: #20976c;
+  border-radius: 100px;
+  padding: 10px 24px;
+  background-color: white;
+  cursor: pointer;
+}
+#seeAllResources {
+  background-color: #20976c;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+.header_left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.14em;
+  color: #2d4bb6;
+}
+#par {
+  width: 493px;
+  height: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #2f4356;
+}
+.header_left h1 {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 42px;
+  line-height: 35px;
+  color: #031a30;
+}
+.header_right p {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #031a30;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.header_div img {
+  width: 268px;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+.skew_header {
+  width: 756.6px;
+  height: 97px;
+  background: rgba(222, 246, 236, 1);
+  border-radius: 20px 18px 13px 5px;
+  margin-left: 439px;
+  transform: skewY(4deg);
+  margin-top: -62px;
+}
+.header_right button {
+  margin-left: 20px;
+}
+#bigIMG {
+  height: 256px;
+}
