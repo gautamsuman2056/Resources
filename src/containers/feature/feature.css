@@ -4,8 +4,7 @@
   align-items: flex-start;
   background-color: white;
   padding: 78px;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 1279px;
   overflow: hidden;
 }
 .features__Highlight img {
@@ -18,13 +17,15 @@
   justify-content: center;
   text-align: end;
 }
+.features__headingButton :hover {
+  background-color: #20976c;
+}
 .images {
   display: grid;
   grid-template-columns: 272px 272px 272px 272px;
   grid-column-gap: 10px;
 }
 .images div {
-  background: #f0f5fa;
   border-radius: 20px 20px 20px 20px;
   height: 361px;
 }
@@ -56,7 +57,7 @@
   margin-bottom: 25px;
 }
 .images p {
-  font-family: "Gotham Rounded";
+  font-family: GothamRounded;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -72,6 +73,10 @@
   border-radius: 100px;
   color: #20976c;
 }
+.feature__button button :hover {
+  background-color: white;
+  color: black;
+}
 .insight_heading p {
   color: #2d4bb6;
   font-family: "Inter", sans-serif;
@@ -81,7 +86,10 @@
   letter-spacing: 14%;
   margin-bottom: 25px;
 }
-.images button {
+.images div button {
   background: #f0f5fa;
   margin-left: 10px;
+}
+.image div ybutton:hover {
+  background-color: #20976c;
 }

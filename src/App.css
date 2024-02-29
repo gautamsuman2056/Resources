@@ -5,9 +5,29 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-html,
+@font-face {
+  font-family: GothamRounded;
+  src: url(../src/fonts/gotham-rounded/GothamRounded-Bold.otf);
+}
+@font-face {
+  font-family: GothamRoundedBook;
+  src: url(C:\Users\gauta\my-resources\src\fonts\gotham-rounded\GothamRoundedBook_21018.ttf);
+}
+
+html {
+  height: 100px;
+  width: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 body {
   height: 100vh;
+  position: absolute;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -15,46 +35,74 @@ body {
   padding: 0;
   background-color: #f0f5fa;
 }
-.Nav_Header {
-  overflow: hidden;
-  /* background-color: white; */
+body p:hover {
+  color: rgb(111, 56, 161);
+  cursor: pointer;
 }
-.Body {
-  overflow: hidden;
-  width: 100%;
+body h1 {
+  font-family: GothamRounded;
 }
+.button {
+  border: 1px solid #20976c;
+  color: #20976c;
+  border-radius: 100px;
+  padding: 10px 24px;
+  background-color: white;
+  cursor: pointer;
+}
+
 .Footer_continer {
   overflow: hidden;
 }
-.section_padding {
-  padding: 4rem 6rem;
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
-.section_margin {
-  margin: 4rem 6rem;
-}
-.scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+@media screen and (max-width: 767px) {
 }
 
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
+/* Navbar media query */
+@media screen and (max-width: 767px) {
+}
+
+/* Header media query */
+@media screen and (max-width: 468px) {
+  .header_left p {
+    /* Header styles for mobile */
+    font: size 14px;
   }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+  .header_left h1 {
+    font-size: 24px;
+  }
+  .header_div img {
+    background: linear-gradient(
+      180deg,
+      rgba(45, 75, 182, 0) 0%,
+      rgba(45, 75, 182, 0.8) 59.77%,
+      #2d4bb6 100%
+    );
   }
 }
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
+
+/* Body media query */
+@media screen and (max-width: 767px) {
+  .body {
+    /* Body styles for mobile */
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
   }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+}
+
+/* Footer media query */
+@media screen and (max-width: 767px) {
+}
+img {
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.img :hover {
+  transform: translateY(-10px);
 }

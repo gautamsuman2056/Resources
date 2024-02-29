@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import url("https://www.wfonts.com/font/gotham-rounded");
 
-/* :root {
-  --font-family: 'Manrope', sans-serif;
+@font-face {
+  font-family: "FlamanteRounded";
+  src: url("http://defharo.com/fonts/flamante-round-family/");
+  font-weight: 400px;
+}
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  
+:root {
+  --font-family: "Manrope", sans-serif;
+  --font-family: "Gotham Rounded";
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+
   --color-bg: #fff;
-  --color-footer : #f6f8fa;
+  --color-footer: #f6f8fa;
   --color-blog: #f3f6f9;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
-} */
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+}

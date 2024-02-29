@@ -9,7 +9,7 @@
   flex-direction: column;
   padding: 78px;
   background-color: #f0f5fa;
-  width: 1274px;
+  width: 1279px;
   transform: skewY(3deg);
 }
 .skewCTA {
@@ -32,7 +32,10 @@
   width: 65px;
   height: 33px;
   border-radius: 100px;
+  font-weight: 400;
   cursor: pointer;
+  font-size: 14px;
+  font-family: "Inter";
   border: 1px solid black;
 }
 #all {
@@ -41,7 +44,7 @@
   color: white;
 }
 .cta__heading h1 {
-  font-family: "Gotham Rounded";
+  font-family: GothamRounded;
   font-size: 38px;
   line-height: 48px;
   font-weight: 400;
@@ -58,7 +61,9 @@
   margin-bottom: 40px;
 }
 .cta_updatesAndInsight h1 {
-  font-family: "Gotham Rounded";
+  font-family: GothamRounded;
+  margin-top: 11px;
+  margin-bottom: 14px;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -74,6 +79,7 @@
   text-transform: uppercase;
   color: #0a61b4;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 #insight {
   font-family: "Inter", sans-serif;
@@ -84,10 +90,17 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 .cta_updatesAndInsight button {
   border: none;
   background-color: #f0f5fa;
   color: #20976c;
   cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Inter";
+}
+.cta_updatesAndInsight button:hover {
+  text-decoration: underline #20976c;
 }

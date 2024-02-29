@@ -1,94 +1,94 @@
-.features__Highlight{
+.features__Highlight {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background-color: white;
   padding: 78px;
   width: fit-content;
-   transform: skewY(3deg); 
+  transform: skewY(3deg);
 }
- .skew_feature{
+.skew_feature {
   transform: skewY(-3deg);
-} 
-.features__Highlight img{
-height: 200px;
-width: 268px;
-border-radius: 20px;
 }
-.features__headingButton{
+.features__Highlight img {
+  height: 200px;
+  width: 268px;
+  border-radius: 20px;
+}
+.features__headingButton {
   display: flex;
   justify-content: center;
   text-align: end;
   cursor: pointer;
 }
-.images{
+.images {
   display: grid;
   grid-template-columns: 272px 272px 272px 272px;
   grid-column-gap: 10px;
-
 }
-.images div{
-  background: #F0F5FA;
+.images div {
+  background: #f0f5fa;
   border-radius: 20px 20px 20px 20px;
   height: 361px;
-  
-} 
-.shape_bgg{
+}
+.shape_bgg {
   width: 599.5px;
   height: 104px;
-  background: linear-gradient(261.67deg, #0A61B4 6.25%, #074581 91.85%);
+  background: linear-gradient(261.67deg, #0a61b4 6.25%, #074581 91.85%);
   border-radius: 0px 2px 20px 0px;
   margin-left: -79px;
-  transform: skewY( 9deg);
+  transform: skewY(9deg);
   margin-bottom: 140px;
   margin-top: -242px;
 }
 
-
-.feature__heading-content{
+.feature__heading-content {
   display: grid;
   grid-template-columns: 350px 1fr;
   grid-column-gap: 672px;
 }
-.button{
-  color:  #20976C; 
+.button {
+  color: #20976c;
 }
-.features__heading h1{
-  font-family: 'Gotham Rounded';
+.features__heading h1 {
+  font-family: GothamRounded;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
-  color: #031A30;
+  color: #031a30;
   margin-bottom: 25px;
 }
 .images p {
-  font-family: 'Gotham Rounded';
+  font-family: GothamRounded;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
-  color: #031A30;
+  color: #031a30;
   padding: 10px;
   margin-bottom: 10px;
 }
 .feature__button button {
   padding: 10px;
   gap: 10px;
-  border: 1px solid #20976C;
+  border: 1px solid #20976c;
   border-radius: 100px;
-  color: #20976C;
+  color: #20976c;
   cursor: pointer;
-
 }
-.insight_heading p{
-  color:  #2D4BB6;
+.feature__button button :hover {
+  background-color: white;
+  color: black;
+}
+.insight_heading p {
+  color: #2d4bb6;
   letter-spacing: 1px;
 }
 .images button {
- background: #F0F5FA;
- cursor: pointer;
-  
+  background: #f0f5fa;
+  cursor: pointer;
 }
-
-
+.image button:hover {
+  background-color: #20976c;
+}

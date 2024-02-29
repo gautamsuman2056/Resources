@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
+
 .resourcesDetailsBody {
   display: grid;
   grid-template-columns: 1fr 840px;
@@ -6,6 +7,7 @@
   gap: 40px;
   background-color: white;
 }
+
 .resourcesDetailsPage {
   width: 100%;
   overflow: hidden;
@@ -30,13 +32,13 @@
 .bodyLeft h1 {
   color: #7d8893;
   font-size: 18px;
-  font-family: "Inter", sans-serif;
+  font-family: GothamRounded;
   padding-bottom: 10px;
 }
 .bodyLeft p {
-  font-family: Gotham Rounded;
-  font-size: 18px;
-  font-style: medium;
+  font-family: GothamRoundedBook;
+  font-size: 16px;
+  font-weight: 325px;
   color: #2f4356;
 }
 .case_study {
@@ -85,6 +87,7 @@
   font-size: 24px;
   color: #031a30;
   font-weight: bolder;
+  font-family: GothamRounded;
 }
 .bodyRight_Content p {
   font-family: "Inter", sans-serif;
@@ -95,9 +98,4 @@
 }
 .case_study p {
   cursor: pointer;
-}
-.case_study p :hover {
-  background-color: blue;
-  transition: 0.2s;
-  color: blue;
 }

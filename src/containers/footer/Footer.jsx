@@ -4,17 +4,6 @@ import "./import";
 import logo from "./../../assets/logo.png";
 import UsaFlag from "./../../assets/USA flag.png";
 
-import {
-  Linkdin,
-  Youtube,
-  Facebook,
-  Discord,
-  Twitter,
-  Instagram,
-  Wechat,
-  Whatsapp,
-} from "./import";
-
 const Footer = () => {
   return (
     <div className="footer">

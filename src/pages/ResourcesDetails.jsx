@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigation } from "../Nav/Navigation";
 import "./resourcesDetails.css";
 import { dentalImage, logo, doctors, UsaFlag } from "./importResources";
 import { Link } from "react-router-dom";
@@ -6,17 +7,12 @@ import { Navbar } from "../components";
 import { Footer } from "../containers";
 
 const ResourcesDetails = () => {
-  // const div = document.getElementById("case_study");
-
-  // div.addEventListener("click", function onClick(event) {
-  //   document.target.style.color = "blue";
-  // });
-
   return (
     <div className="resourcesDetailsPage">
       <div className="navbar_component">
         {" "}
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navigation />
       </div>
 
       <div className="resourcesDetailsBody">

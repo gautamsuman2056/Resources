@@ -28,9 +28,14 @@
   color: #20976c;
   border-radius: 100px;
   padding: 10px 24px;
+  cursor: pointer;
+}
+.left_article button:hover {
+  background-color: white;
+  color: black;
 }
 .right_article h1 {
-  font-family: "Gotham Rounded";
+  font-family: GothamRounded;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -55,4 +60,7 @@
   grid-column-gap: 50px;
   background-color: white;
   transform: skewY(-3deg);
+}
+.right_article button:hover {
+  text-decoration: underline solid #20976c;
 }
